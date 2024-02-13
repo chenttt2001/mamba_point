@@ -3,5 +3,6 @@
 #SBATCH -t 4-00:00:00
 #SBATCH -w alvis3-07
 #SBATCH --gpus-per-node=A100:2
-#SBATCH --job-name=mamba
-nvidia-smi
+#SBATCH --job-name=mam
+
+srun nvidia-smi
